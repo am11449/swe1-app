@@ -1,0 +1,10 @@
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: "AKIA6HSYUFZQTNQLX4EM"
+  secret_access_key:
+    secure: "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"
+  region: "us-west-2"
+  app: "django-tutorial"
+  env: "django-env"
+  bucket_name: "elasticbeanstalk-us-west-2-978364673633"
