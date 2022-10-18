@@ -25,7 +25,7 @@ SECRET_KEY = 'swz@ea=cw*#wp-wq!ovv%vjweewmzm9w)gh8(&imr@17dri86a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['django-env.eba-2gzvrpz2.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition
