@@ -5,6 +5,7 @@ from django.views import generic
 from .models import Choice, Question
 from django.utils import timezone
 
+
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
     context_object_name = 'latest_question_list'
@@ -22,7 +23,7 @@ class IndexView(generic.ListView):
 class DetailView(generic.DetailView):
     model = Question
     template_name = 'polls/detail.html'
-    
+
     def get_queryset(self):
         """
         Excludes any questions that aren't published yet.
@@ -44,7 +45,7 @@ def vote(request, question_id):
         return render(request, 'polls/detail.html', {
             'question': question,
             'error_message': "You didn't select a choice.",
-        })          
+        })
     else:
         selected_choice.votes += 1
         selected_choice.save()
