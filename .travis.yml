@@ -11,8 +11,8 @@ script:
   - flake8 ./
   - coverage run manage.py test
 
-after_script:
-  - coveralls
+after_success:
+  - coveralls 
 
 deploy:
   provider: elasticbeanstalk
