@@ -4,3 +4,5 @@ App deployed for the Software Engineering course (Fall 2022) by Atul Manjunath B
 # App-url
 http://django-env.eba-2gzvrpz2.us-east-1.elasticbeanstalk.com/polls \
 http://django-env.eba-2gzvrpz2.us-east-1.elasticbeanstalk.com/admin/
+
+[![Coverage Status](https://coveralls.io/repos/github/am11449/swe1-app/badge.svg?branch=main)](https://coveralls.io/github/am11449/swe1-app?branch=main)
